@@ -2,6 +2,6 @@
 
 let name="Nom : Doe";
 let surname="Prénom : John" ;
-let city="ville : New-York";
+let city="Ville : New-York";
 
-alert( "name" + name +"\n"+ surname+"\n"+ city);
+alert( name +"\n"+ surname+"\n"+ city);

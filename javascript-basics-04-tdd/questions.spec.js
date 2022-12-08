@@ -2,11 +2,13 @@
 
 describe('Character Strings: ', () => {
 
+
   describe('stringSize', () => {
     it('Returns the string size', () => {
       const result = stringSize('This text has a certain number of characters')
       expect(result).toEqual(44)
     })
+    
   })
 
   describe('replaceCharacterE', () => {
