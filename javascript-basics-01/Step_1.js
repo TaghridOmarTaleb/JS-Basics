@@ -1,4 +1,5 @@
 
 
-let nom="name";
-alert(nom);
+let name="name";
+alert(name);
+
