@@ -1,2 +1,6 @@
 
-<img onmouseover="" src="images/image1.jpg" alt="images/image2.jpg"></img>
+let pic1 = document.getElementById("image1");
+
+pic1.onmouseover = function(){
+    img1.style.border = "2px solid red"
+};
