@@ -1,8 +1,9 @@
-let name = prompt("what is ur name")
-document.getElementById(name).value
-let surname = prompt("what is ur surname")
+function alertTest() {
+    userName = document.getElementById("name").value;
+    surname = document.getElementById("surname").value;
+    city = document.getElementById("city").value;
 
-let city = prompt("what is ur city")
-
-
-alert("hello "+ name +" "+ surname+ " from "+city) 
+    alert(
+      "Name: " + userName + "\n" + "Surname: " + surname + "\n" + "City: " + city
+    );
+  }
